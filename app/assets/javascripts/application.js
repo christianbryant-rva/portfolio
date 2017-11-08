@@ -13,3 +13,7 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+
+config.log_level = warn // In any environment initializer, or
+Rails.logger.level = 0 // at any time
