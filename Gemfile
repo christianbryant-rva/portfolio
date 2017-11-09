@@ -56,3 +56,10 @@ end
 
 # optional gem for advanced features of better_errors
 gem "binding_of_caller"
+
+# recommended gems for making things "eazzzzy"
+gem 'factory_bot'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.6'
+end
